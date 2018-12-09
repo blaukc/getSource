@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/Gotham-XLight.otf);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#textInput {
+    margin: 0;
+    width: 80%;
+    height: 7.5%;
+    font-size: 200%;
+    font-family: Gotham;
+    color: #003D5B;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFBF69;
+    flex-direction: column;
+}
+
+#mainText, #submit {
+    color: #003D5B;
+    font-family: Gotham;
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+#submit {
+    cursor: pointer;
+    font-size: 2em;
+}
