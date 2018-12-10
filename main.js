@@ -5,7 +5,7 @@ function submit() {
         document.getElementById('source').remove();
     }
     var url = document.getElementById('textInput').value;
-    $.getJSON('http://www.whateverorigin.org/get?url=' + encodeURIComponent(url) + '&callback=?', function (data) {
+    $.getJSON('https://whatever-origin.herokuapp.com/get?url=' + encodeURIComponent(url) + '&callback=?', function (data) {
         output = data.contents;
     });
     
