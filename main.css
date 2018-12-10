@@ -41,3 +41,8 @@ html, body {
     cursor: pointer;
     font-size: 2em;
 }
+
+#source {
+    width: 100%;
+    word-wrap: break-word;
+}
