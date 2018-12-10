@@ -3,6 +3,7 @@ var x = false, output;
 function submit() {
     if (x) {
         document.getElementById('source').remove();
+        output = '';
     }
     var url = document.getElementById('textInput').value;
     $.getJSON('https://whatever-origin.herokuapp.com/get?url=' + encodeURIComponent(url) + '&callback=?', function (data) {
@@ -19,5 +20,5 @@ function submit() {
         
         p.scrollIntoView({behavior: "smooth", block: "start"});
         x = true;
-    }, 3000);
+    }, 5000);
 }
