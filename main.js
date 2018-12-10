@@ -20,5 +20,5 @@ function submit() {
         
         p.scrollIntoView({behavior: "smooth", block: "start"});
         x = true;
-    }, 5000);
+    }, 7500);
 }
